@@ -13,6 +13,7 @@ public class LevelManager : MonoBehaviour {
 	void Start () {
         guiLives.text = lives.ToString();
         player = GameObject.FindGameObjectWithTag("Player");
+        player.transform.position = respawnTarget.transform.position;
 	}
 	
 	// Update is called once per frame
