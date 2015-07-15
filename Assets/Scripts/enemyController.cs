@@ -8,6 +8,7 @@ public class enemyController : MonoBehaviour {
 	private Rigidbody2D myRigidbody;
 
 	public int speed;
+	public GameObject blood;
 	// Use this for initialization
 	void Start () {
 		Player=GameObject.Find ("MainCharacter");
@@ -17,12 +18,12 @@ public class enemyController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		Vector2 direction = Player.transform.position - this.transform.position;
+		Vector2 direction = (Player.transform.position - this.transform.position).normalized;
 
 		myRigidbody.velocity = direction * speed;
-		Vector3 moveTowards = (Player.transform.position - this.transform.position).normalized;
-		moveTowards.z = 0f;
-		this.transform.right = moveTowards;
+		Vector3 lookTowards = (Player.transform.position - this.transform.position).normalized;
+		lookTowards.z = 0f;
+		this.transform.right = lookTowards;
 
 	
 	}
@@ -31,8 +32,11 @@ public class enemyController : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D other)
 	{
 		if (other.gameObject.tag == "Bullet") {
+
+			GameObject bloodInstance = Instantiate(blood, this.transform.position, this.transform.rotation) as GameObject;
+			Destroy(bloodInstance,1.0f);
 			Destroy (other.gameObject);
-			Destroy (this.gameObject);
+			Destroy (this.gameObject,0.01f);
 		} else if (other.gameObject.tag == "Player") {
 			Debug.Log("endGame");
 		

@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: 9d038de70beed3848b760ed05f972942
+timeCreated: 1436963281
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: escenario_0
+    21300002: escenario_1
+    21300004: escenario_2
+    21300006: escenario_3
+    21300008: escenario_4
+    21300010: escenario_5
+    21300012: escenario_6
+    21300014: escenario_7
+    21300016: escenario_8
+    21300018: escenario_9
+    21300020: escenario_10
+    21300022: escenario_11
+    21300024: escenario_12
+    21300026: escenario_13
+    21300028: escenario_14
+    21300030: escenario_15
+    21300032: escenario_16
+    21300034: escenario_17
+    21300036: escenario_18
+    21300038: escenario_19
+    21300040: blood1
+    21300042: escenario_21
+    21300044: blood3
+    21300046: escenario_23
+    21300048: escenario_24
+    21300050: escenario_25
+    21300052: escenario_26
+    21300054: escenario_27
+    21300056: escenario_28
+    21300058: escenario_29
+    21300060: escenario_30
+    21300062: escenario_31
+    21300064: bloood2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: escenario_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 826
+        width: 376
+        height: 376
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_1
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 830
+        width: 374
+        height: 375
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_2
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 830
+        width: 374
+        height: 375
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_3
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 833
+        width: 376
+        height: 376
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_4
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 721
+        width: 193
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_5
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 721
+        width: 193
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_6
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 733
+        width: 213
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_7
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 619
+        width: 167
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_8
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 379
+        width: 404
+        height: 388
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 631
+        width: 922
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 428
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 484
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_12
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 380
+        width: 292
+        height: 179
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_13
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 430
+        width: 92
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_14
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 424
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 459
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_16
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 445
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_17
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 414
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 183
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_19
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 241
+        width: 184
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blood1
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 250
+        width: 95
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_21
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 305
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blood3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 201
+        width: 292
+        height: 180
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_23
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 280
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_24
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 266
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_25
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 242
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_26
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 235
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_27
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 188
+        width: 195
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 43
+        width: 195
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_29
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 41
+        width: 192
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_30
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 16
+        width: 341
+        height: 158
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escenario_31
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 7
+        width: 563
+        height: 333
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bloood2
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 206
+        width: 279
+        height: 159
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
