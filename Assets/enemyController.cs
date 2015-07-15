@@ -17,12 +17,12 @@ public class enemyController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		Vector2 direction = Player.transform.position - this.transform.position;
+		Vector2 direction = (Player.transform.position - this.transform.position).normalized;
 
 		myRigidbody.velocity = direction * speed;
-		Vector3 moveTowards = (Player.transform.position - this.transform.position).normalized;
-		moveTowards.z = 0f;
-		this.transform.right = moveTowards;
+		Vector3 lookTowards = (Player.transform.position - this.transform.position).normalized;
+		lookTowards.z = 0f;
+		this.transform.right = lookTowards;
 
 	
 	}
