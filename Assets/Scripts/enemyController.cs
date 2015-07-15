@@ -32,14 +32,12 @@ public class enemyController : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D other)
 	{
 		if (other.gameObject.tag == "Bullet") {
-
 			GameObject bloodInstance = Instantiate(blood, this.transform.position, this.transform.rotation) as GameObject;
 			Destroy(bloodInstance,1.0f);
 			Destroy (other.gameObject);
 			Destroy (this.gameObject,0.01f);
-		} else if (other.gameObject.tag == "Player") {
-			Debug.Log("endGame");
-		
-		}
+            GameObject.Find("ScoreController").GetComponent<ScoreController>().addScore(1);
+		} else if (other.gameObject.tag == "Player")
+            GameObject.Find("LevelManager").GetComponent<LevelManager>().playerDied();
 	}
 }
