@@ -40,7 +40,6 @@ public class CharacterManager : MonoBehaviour
 		float h = Input.GetAxis ("Horizontal");
 		float v = Input.GetAxis ("Vertical");
 		myRigidbody.velocity = Vector2.up * v * speed + Vector2.right * h * speed;
-		animator.SetFloat ("velocity", (Vector2.up * v * speed + Vector2.right * h * speed).magnitude);
 	}
 
 	void Aim ()
@@ -53,7 +52,6 @@ public class CharacterManager : MonoBehaviour
 	 void Shoot ()
 	{
 		if (Input.GetMouseButtonDown (0)) {
-			animator.SetTrigger("Attack");
 			GameObject bulletInstance = Instantiate (bullet, canon.transform.position, this.transform.rotation) as GameObject;
 
 			bulletInstance.GetComponent<Rigidbody2D> ().velocity = bulletSpeed * (canon.transform.position - this.transform.position);
